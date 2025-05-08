@@ -40,7 +40,7 @@ export type UserSettings = {
 
 // Fallback if NEXT_PUBLIC_APP_CONFIG is not set
 const defaultConfig: AppConfig = {
-  title: "LiveKit Agents Playground",
+  title: "Argi Agents Playground",
   description: "A virtual workbench for testing multimodal AI agents.",
   video_fit: "cover",
   settings: {
@@ -53,7 +53,7 @@ const defaultConfig: AppConfig = {
     },
     outputs: {
       audio: true,
-      video: true,
+      video: false,
     },
     ws_url: "",
     token: "",
