@@ -6,11 +6,11 @@ import {
 import { AnimatePresence, motion } from "framer-motion";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import { useCallback, useState } from "react";
+import { useCallback } from "react";
 
 import { PlaygroundConnect } from "@/components/PlaygroundConnect";
 import Playground from "@/components/playground/Playground";
-import { PlaygroundToast, ToastType } from "@/components/toast/PlaygroundToast";
+import { PlaygroundToast } from "@/components/toast/PlaygroundToast";
 import { ConfigProvider, useConfig } from "@/hooks/useConfig";
 import { ConnectionMode, ConnectionProvider, useConnection } from "@/hooks/useConnection";
 import { useMemo } from "react";
@@ -79,10 +79,10 @@ export function HomeInner() {
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta
           property="og:image"
-          content="https://livekit.io/images/og/agents-playground.png"
+          content="https://ai-agent.aidata-dev.vnsilicon.site/images/Vietnam_Silicon_name.png"
         />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <meta property="og:image:width" content="1056" />
+        <meta property="og:image:height" content="428" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="relative flex flex-col justify-center px-4 items-center h-full w-full bg-black repeating-square-background">
